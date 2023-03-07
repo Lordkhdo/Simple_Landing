@@ -29,6 +29,7 @@ export const Li = styled.li`
   list-style: none;
   font-family: poppins;
   margin: 10px;
+  cursor: pointer;
 `;
 export const Button = styled.button`
   position: absolute;

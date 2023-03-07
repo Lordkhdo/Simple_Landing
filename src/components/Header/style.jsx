@@ -44,6 +44,7 @@ export const ItemList = styled.li`
   list-style: none;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 `;
 export const DivList = styled.div``;
 export const DivButton = styled.div``;
@@ -57,4 +58,5 @@ export const ButtonHeader = styled.button`
   font-weight: 600;
   font-family: "poppins", sans-serif;
   color: #17a4d0;
+  cursor: pointer;
 `;

@@ -24,6 +24,10 @@ export const CardLeft = styled.div`
     width: 350px;
     margin-top: 110px;
   }
+    @media (max-width: 430px) {
+    width: 350px;
+    margin-top: 60px;
+  }
 `;
 export const TextH3Area = styled.div`
   width: 450px;
@@ -35,12 +39,17 @@ export const H2 = styled.h2`
   text-align: left;
   @media (max-width: 650px) {
     width: 400px;
+    margin: 0;
+
+  }
+  @media (max-width: 400px) {
+    width: 300px;
   }
 `;
 export const Paragraph = styled.p`
   margin-top: 20px;
   width: 350px;
-  font-family: poppins;
+  font-family: "poppins";
 `;
 export const RightDiv = styled.div`
   flex: 1.5;
@@ -80,4 +89,5 @@ export const Button = styled.button`
   color: white;
   font-family: "poppins", sans-serif;
   font-size: small;
+  cursor: pointer;
 `;
